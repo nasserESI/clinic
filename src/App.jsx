@@ -40,7 +40,7 @@ function App() {
               };
 
               // Envoyer les données au serveur avec Axios
-              axios.post('https://54f8-141-135-89-194.ngrok-free.app/api/send', data)
+              axios.post('https://ee25-141-135-89-194.ngrok-free.app/api/send', data)
                 .then(function (response) {
                   console.log("Réponse du serveur:", response.data);
                   setResponse(response.data); // Mise à jour de l'état avec la réponse du serveur
